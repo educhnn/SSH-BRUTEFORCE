@@ -1,6 +1,6 @@
 # SSH BRUTEFORCE TOOL
 Simple SSH BRUTEFORCE tool built in Python using Paramiko.
-Designed for learning purposes .
+Designed for learning purposes.
 
 ---
 
@@ -33,6 +33,13 @@ python3 ssh-bruteforce.py -i <host> -u <username> -w <wordlist>
 |-i         | Target IP           |
 |-u         | Username            |
 |-w         | Password wordlist   |  
+
+---
+# Notes!
+
+- SSH servers may limit or block reapeted login attemps
+- This tool includes basic handling for such cases
+- This tool is not intended for large-scale brute force attacks
 
 ---
 
