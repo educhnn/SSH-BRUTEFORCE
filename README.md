@@ -21,7 +21,7 @@ Designed for learning purposes.
 # Usage
 
 ```bash
-python3 ssh-bruteforce.py -i <host> -u <username> -w <wordlist>
+python3 ssh-bruteforce.py -i <host> -u <username> -w <wordlist> -t <threads>
 ```
 
 ---
@@ -33,6 +33,7 @@ python3 ssh-bruteforce.py -i <host> -u <username> -w <wordlist>
 |-i         | Target IP           |
 |-u         | Username            |
 |-w         | Password wordlist   |  
+|-t         | Threads             |
 
 ---
 # Notes!
